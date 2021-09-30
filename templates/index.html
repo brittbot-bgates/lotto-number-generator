@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="This website randomly generates lottery numbers for Cash 3/Pick3, Cash 4/Pick 4, Fantasy 5, Mega Millions, and Powerball.">
+  <title>Lotto Number Generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/static/favicon/site.webmanifest">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Lotto Number Generator</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Games
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/games/cash_three.html">Cash 3</a></li>
+              <li><a class="dropdown-item" href="/games/cash_four.html">Cash 4</a></li>
+              <li><a class="dropdown-item" href="/games/fantasy_five.html">Fantasy 5</a></li>
+              <li><a class="dropdown-item" href="/games/mega_millions.html">Mega Millions</a></li>
+              <li><a class="dropdown-item" href="/games/powerball.html">Powerball</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid outer-container">
+    <div class="container cash-three-container">
+      <div class="row">
+        <div class="col">
+          <img class="container-img-left" src="/static/img/cash_three_large.jpg" alt="Cash 3 / Pick 3">
+        </div>
+        <div class="col">
+          <h1 class="h1-left desktop-h1 mobile-small-h1">Cash 3 / Pick 3</h1>
+          <h2 class="h2-left desktop-h2 mobile-small-h2">Click the button below to generate three random numbers that can be lucky and lead to a win!</h2>
+          <a href="/games/cash_three.html" class="btn btn-secondary btn-lg button-left">Generate</a>
+        </div>
+      </div>
+    </div>
+    <div class="container cash-four-container">
+      <div class="row">
+        <div class="col">
+          <h1 class="h1-right desktop-h1 mobile-small-h1">Cash 4 / Pick 4</h1>
+          <h2 class="h2-right desktop-h2 mobile-small-h2">Looking to to generate four random numbers to lead to a nice jackpot? Click the button below!</h2>
+          <a href="/games/cash_four.html" class="btn btn-secondary btn-lg button-right">Generate</a>
+        </div>
+        <div class="col">
+          <img class="container-img-right" src="/static/img/cash_four_large.jpg" alt="Cash 4 / Pick 4">
+        </div>
+      </div>
+    </div>
+    <div class="container fantasy-five-container">
+      <div class="row">
+        <div class="col">
+          <img class="container-img-left" src="/static/img/fantasy_five_large.jpg" alt="Fantasy 5">
+        </div>
+        <div class="col">
+          <h1 class="h1-left desktop-h1 mobile-small-h1">Fantasy 5</h1>
+          <h2 class="h2-left desktop-h2 mobile-small-h2">Make your fantasies come true with five random numbers when you click the button below!</h2>
+          <a href="/games/fantasy_five.html" class="btn btn-secondary btn-lg button-left">Generate</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mega-millions-container">
+      <div class="row">
+        <div class="col">
+          <h1 class="h1-right desktop-h1 mobile-small-h1">Mega Millions</h1>
+          <h2 class="h2-right desktop-h2 mobile-small-h2">For those wanting to win a mega jackpot click the button to generate five random numbers and the Mega Ball!</h2>
+          <a href="/games/mega_millions.html" class="btn btn-secondary btn-lg button-right">Generate</a>
+        </div>
+        <div class="col">
+          <img class="container-img-right" src="/static/img/mega_millions_large.jpg" alt="Mega Millions">
+        </div>
+      </div>
+    </div>
+    <div class="container powerball-container">
+      <div class="row">
+        <div class="col">
+          <img class="container-img-left" src="/static/img/powerball_large.jpg" alt="Powerball">
+        </div>
+        <div class="col">
+          <h1 class="h1-left desktop-h1 mobile-small-h1 mobile-large-h1">Powerball</h1>
+          <h2 class="h2-left desktop-h2 mobile-small-h2 mobile-large-h2">Grab the power to win big by clicking the button to generate five random numbers and the Powerball!</h2>
+          <a href="/games/powerball.html" class="btn btn-secondary btn-lg button-left">Generate</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted desktop-social-media mobile-small-social-media">
+        <p>Created by Brittany Gates | <a href="https://www.brittanygates.me" title="My Blog" target="_blank">My Website</a> - <a href="https://brittbot.com/" title="Websites & Programming Talk" target="_blank">My WordPress/Programming Blog</a> - <a
+          href="https://letsallmeat.com" title="My Online Store" target="_blank"><i class="bi bi-shop"></i></a> - <a href="https://www.linkedin.com/in/brittanygates/" title="My LinkedIn Profile" target="_blank"><i class="bi bi-linkedin"></i></a> -
+          <a href="https://twitter.com/bgates_writer" title="Brittany's Twitter Profile" target="_blank"><i class="bi bi-twitter"></i></a> - <a href="https://twitter.com/brittbot_bgates" title="Brittbot Twitter Profile" target="_blank"><i
+            class="bi bi-twitter"></i></a> - <a href="https://www.youtube.com/c/BrittanyGates" title="My YouTube Channel" target="_blank"><i class="bi bi-youtube"></i></a></p>
+          </span>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+
+    </html>
